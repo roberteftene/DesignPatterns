@@ -52,7 +52,7 @@ can carry out alone.
 
     Program to an interface, not an implementation. 
 
-##### Class versus Interface Inheritance
+#### Class versus Interface Inheritance
 
 An object's class defines how the object is implemented. The class defines the object's internal state
 and the implementation of its operations. In contrast, an object's type only refers to its interface-the set
@@ -77,7 +77,7 @@ often said that "inheritance breaks encapsulation" [Sny86]. The implementation
 of a subclass becomes so bound up with the implementation of its parent class
 that any change in the parent's implementation will force the subclass to change.
 
-##### Delegation
+#### Delegation
 
 Delegation is a way of making composition as powerful for reuse as inheritance. 
 For example, instead of making class Window a subclass of Rectangle (because
@@ -88,7 +88,7 @@ Rectangle, it would have a Rectangle. Window must now forward requests to its
 Rectangle instance explicitly, whereas before it would have inherited those
 operations. 
 
-##### Aggregation versus Acquaintance
+#### Aggregation versus Acquaintance
 
 Aggregation implies that an aggregate object and its owner have identical lifetimes or in other words,
 it refers to one object which owns or is responsible for another object. Generally we speak of an object
