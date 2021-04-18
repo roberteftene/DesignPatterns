@@ -1,4 +1,4 @@
-package gof.dp.creational.singleton;
+package gof.dp.creational.singleton.general;
 
 public class DBConnection {
 
