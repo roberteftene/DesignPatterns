@@ -1,8 +1,5 @@
 package gof.dp.behavioral.command;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class TestCommand {
     public static void main(String[] args) {
         TaskManager manager = new TaskManager();
@@ -13,7 +10,6 @@ public class TestCommand {
         manager.execute();
         manager.execute();
         System.out.println("Application running");
-
 
     }
 }
