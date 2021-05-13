@@ -1,0 +1,17 @@
+ACME Inc. is developing a software solution for a bank considering the following specifications.
+All instances of the application use a single object that has the role of managing the bank's data
+(name, address, current account number counter)
+
+but also to generate one of the 2 different types of accounts that the bank
+manages(CreditAccount and DebitAccount). Account generation
+is done depending on the type of account, transmitted by a String parameter. The two bank
+accounts implement the IContBancar interface that defines 2 mandatory methods:
+transfer(IContBancar destination, double amount) and deposit(double
+amount).
+
+Now, the bank is in talks about a possible merger with another bank, FutureBank. One
+requirement of the merger is the interconnection of the 2 software systems so that banking
+operations (transfer and deposit) can be carried out through any interruptions. ACME Inc. must
+provide a trial solution by integrating the current system in the FutureBank one. It is known that
+in the FutureBank bank system the accounts implement the IBankAccount interface that defines
+accountTransfer(IBankAccount account, double amount) method.
